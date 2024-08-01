@@ -90,7 +90,7 @@ describe("Rover class", function() {
     
     
     expect(rover.mode).toBe('NORMAL');
-    expect(rover.position).toBe(8);
+    expect(rover.position).toBe(5);
     expect(result[0].completed).toBe(true);
   });
 

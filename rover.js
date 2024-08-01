@@ -28,7 +28,7 @@ class Rover {
                newObj.results.push({"completed":false});
             
             } else {
-               this.position += arr[1][i].value;
+               this.position = arr[1][i].value;
                newObj.results.push({"completed":true});
             }
          }
