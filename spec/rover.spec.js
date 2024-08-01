@@ -8,7 +8,7 @@ const Command = require('../command.js');
 
 describe("Rover class", function() {
 
-  // 7 tests here!
+  
   it("constructor sets position and default values for mode and generatorWatts", function() {
     let result = new Rover(3);
 
